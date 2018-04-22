@@ -1,0 +1,96 @@
+1) remedy api changes for add service provider.
+
+
+1) webhook needed to implemented with delta webhook api.
+
+
+
+
+
+2) App needs to be created from gadhoc@adobe.com.
+3) Authentication for every microservice.
+4) Azure Cron for update subscription.
+5) Rules(almost done).
+6) shared email change make the onboard person as default owner. 
+
+
+https://portal.azure.com/#@adobe.onmicrosoft.com/blade/Microsoft_Azure_Billing/SubscriptionsBlade
+
+
+
+6) Send and Archieve.( API for Archeive the conversation)
+7) Signatures.( 
+	1) API for storing the signature of conversation. 
+	2) API for getting the signature of conversation. 
+)
+
+8) Trash.(
+API for soft delete the conversation from our app mailbox.
+API for getting the trash mails of our app.)
+
+9) My Rules
+( API for getting all the team rules ).
+ 
+10) Add an rule.
+
+(API for adding the rules by admin only).
+
+
+12) My Tags.
+( API for getting all the tags ).
+
+13) Add an Tag
+(API to add a tag)
+
+14) Team Canned responses :
+(API for getting all the team canned response/template).
+(API for adding the team canned response/template) 
+
+15) Block and delete a teammate
+(API to block a team mate).
+(API to delete a team mate).
+
+
+16) Roles and Permissions. (
+API to create a new admin by other admin
+).
+
+
+
+
+{ "@odata.context": "https://graph.microsoft.com/beta/$metadata#users(\"b6b71724-b810-4db1-8dd4-050b50f87e11\")/messages/$entity",
+  "@odata.etag": "W/"CQAAABYAAABOEEdmhleVSYhl65/02vAoAAAsS/D/"",
+  id: "AAMkADk1Y2Y4YzQxLTg1YjEtNGNkNC1hY2NiLTVjMWIxODM5N2I5MgBGAAAAAACf-YwNh7DGTqENHmBtMM7iBwBOEEdmhleVSYhl65-02vAoAAAAAAEMAABOEEdmhleVSYhl65-02vAoAAAsIFBeAAA=",
+  createdDateTime: "2018-01-30T12:32:32Z",
+  lastModifiedDateTime: "2018-01-30T12:32:33Z",
+  changeKey: "CQAAABYAAABOEEdmhleVSYhl65/02vAoAAAsS/D/",
+  categories: [],
+  receivedDateTime: "2018-01-30T12:32:32Z",
+  sentDateTime: "2018-01-30T12:32:30Z",
+  hasAttachments: false,
+  internetMessageId: "<BL2PR02MB3215B38544C64BDE3FFAB8089E40@BL2PR02MB321.namprd02.prod.outlook.com>",
+  subject: "Gentle reminder",
+  bodyPreview: "Hello,\r\n\r\nGentle Reminder !\r\n\r\nI have shared 2 documents couple of days back please share signed documents of confidentiality network access and safety & security document by tomorrow first half.\r\n\r\nRegards,\r\n\r\nMadhuShree Lakshman| CSR| PRO Unlimited  @ A",
+  importance: "normal",
+  parentFolderId: "AQMkADk1Y2Y4YzQxLTg1YjEtNGNkNC1hY2MAYi01YzFiMTgzOTdiOTIALgAAA5-9jA2HsMZOoQ0eYG0wzuIBAE4QR2aGV5VJiGXrn-Ta8CgAAAIBDAAAAA==",
+  conversationId: "AAQkADk1Y2Y4YzQxLTg1YjEtNGNkNC1hY2NiLTVjMWIxODM5N2I5MgAQALiUkt7OdkVXvT7KTmc27zI=",
+  conversationIndex: "AdOZxj+yuJSS3s52RVe9PspOZzbvMg==",
+  isDeliveryReceiptRequested: false,
+  isReadReceiptRequested: false,
+  isRead: true,
+  isDraft: false,
+  webLink: "https://outlook.office365.com/owa/?ItemID=AAMkADk1Y2Y4YzQxLTg1YjEtNGNkNC1hY2NiLTVjMWIxODM5N2I5MgBGAAAAAACf%2FYwNh7DGTqENHmBtMM7iBwBOEEdmhleVSYhl65%2F02vAoAAAAAAEMAABOEEdmhleVSYhl65%2F02vAoAAAsIFBeAAA%3D&exvsurl=1&viewmodel=ReadMessageItem",
+  inferenceClassification: "focused",
+  unsubscribeData: [],
+  unsubscribeEnabled: false,
+  sender:
+   { emailAddress: { name: "Madhushree Lakshman", address: "pro82644@adobe.com" } },
+  from:
+   { emailAddress: { name: "Madhushree Lakshman", address: "pro82644@adobe.com" } },
+  toRecipients: [ { emailAddress: [Object] } ],
+  ccRecipients: [],
+  bccRecipients: [],
+  replyTo: [],
+  mentionsPreview: null,
+  flag: { flagStatus: "notFlagged" }
+

@@ -1,0 +1,82 @@
+update 
+
+1) Update Api.
+2) Add vendor details in description.
+3) Polling of Get Api.
+4) Is our production account will also get deleted. Need to ask.
+
+
+
+1) assignTo case.
+2) 
+
+
+
+5) Architecture Diagram on this.
+6) PPT for the thursday.
+
+
+11103338017
+
+
+1) Rules.
+2) Block User.
+3) deleted message get entered in this. 
+4) Is our production account will also get deleted. Need to ask.
+
+
+
+
+
+// add to team.
+                            var teamOptions = { 
+                                
+                                method: 'POST',
+                                url: config.teamUrl + '/teams',
+                                
+                                headers: 
+                                { 'content-type': 'application/json' },
+                                
+                                body: 
+                                { 
+                                    teamName: userEmail.split('@')[0],
+                                    teamEmail: userEmail,
+                                    userEmail: reply 
+                                },
+                                
+                                json: true 
+                            };
+
+                            request(teamOptions, function (error2, response, body) {
+                              if (error2) throw new Error(error2);
+                                
+                                console.log(body);
+                            });
+
+
+
+
+
+
+Method : POST
+
+URL : http://assignedconvo.azurewebsites.net
+
+body : {
+	"teamMemberEmail" : <assignee>,
+	"teamEmail" : <sharedEmail>,
+	"conversationId" : "AAQkADk1Y2Y4YzQxLTg1YjEtNGNkNC1hY2NiLTVjMWIxODM5N2I5MgAQAAcHtcI2hkXIijKEoHkgz14="
+}
+
+headers : {'Content-Type' : 'application/json' , Authorization : 'Bearer <token>'}
+
+
+
+
+
+
+update the jira.
+
+
+
+JIRA update
